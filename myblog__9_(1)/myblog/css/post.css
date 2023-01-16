@@ -1,0 +1,121 @@
+@import url(Stylemyblog.css);
+@import url(media.css);
+
+.postpage {
+    display: grid;
+    grid-template-columns: 70% 20%;
+}
+
+.title {
+    border-left: 10px solid purple;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.title-article .title h3 {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.title-article .title h5 {
+    text-align: left;
+    font-size: 15px;
+    color: purple;
+    margin: 0px 18px;
+
+
+
+}
+
+.title-article {
+    width: 80%;
+    margin-left: 50px;
+
+}
+
+.pargraph {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 10px;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.pargraph .title-pargraph {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline purple 5px;
+
+}
+
+.pargraph ul li {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+
+/*author*/
+.author {
+    width: 256px;
+    float: left;
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px #ddd;
+
+}
+
+.information {
+    text-align: center;
+}
+
+.information h2 {
+    margin-top: 10px;
+    color: purple;
+}
+
+.information p {
+    margin-top: 10px;
+}
+
+.image img {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.image figcaption{
+    font-size: 10px;
+    text-align: center;
+}
+.Social li {
+    display: inline;
+    padding: 10px;
+}
+.Social li a img{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 767px) {
+
+
+
+    .postpage {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .author {
+        margin-top: 15px;
+    }
+
+
+}
